@@ -1,0 +1,299 @@
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+/*ce bout de code a été crée pour etre adapté aux iphone X, XS et 11Pro */
+
+body {margin: 30px 25px 0px 25px; background-image: url('background.jpg'); background-attachment: fixed;background-size: cover;}
+
+nav{
+    display:flex;
+    justify-content: space-between
+}
+.nav-container-icon{
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 6.5px );
+    width: 55px;
+    height: 55px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+}
+
+.nav-title { font-size: 18px;
+    color: white
+}
+
+.nav-name { font-size: 14px; color: white; font-weight: 100;}
+.nav-icon{
+    width: 25px;
+    filter: invert(1)
+}
+
+.nav-container-info{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.device {
+    margin: 20px auto 20px auto;
+    display:flex;
+    justify-content: space-around;
+    width: 60px;
+    border-radius: 50px;
+    height: 25px;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    border: 0px;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 6.5px )
+}
+
+.device.active {
+    backdrop-filter: blur(6px) saturate(149%);
+    -webkit-backdrop-filter: blur(6px) saturate(149%);
+    background-color: rgba(17, 25, 40, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125)
+    ;}
+
+.solde {
+    font-size: 40px;
+    color: white;
+    font-weight: 400
+}
+
+.solde-container {
+    margin: 0 auto 0 auto;
+    display:flex;
+    justify-content: space-around;}
+
+.evolution {
+    display:flex;
+    justify-content: space-around;
+
+    border-radius: 50px;
+    width: 80px;
+    height: 25px;
+    align-items: center;
+    margin: 0 auto 0 auto
+}
+
+.evolution-value {
+    font-size: 14px;
+    font-weight: 700;
+}
+.action {
+    display:flex;
+    margin-top: 35px;
+    height: 85px;
+
+}
+
+.send {
+    width: 50%;
+    display:flex;
+    height: 80px;
+    border-radius: 50px;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.download, .img-request{
+    width: 30px;
+    height: 30px;
+    filter: invert(1)
+}
+
+.img-action-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: rgba( 255, 255, 255, 0.001 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    margin-right: 35px;}
+
+div.scan {
+    display:flex;
+    width: 65px;
+    height: 65px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #262922;
+    border-radius: 50px;;
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scan-image {
+    width: 30px;
+    height: 30px; filter: invert(1)
+}
+
+.request {
+    width: 50%;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px
+}
+
+.img-request-container {
+    width: 40px;
+    height: 40px;
+    background: rgba( 255, 255, 255, 0.001 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 35px
+}
+
+.text-action{
+    margin-left: 35px;
+    font-size: 14px;
+    color: white
+}
+
+.text-request {
+    margin-right: 18px;
+    font-size: 14px;
+    color: white
+}
+
+.contact {
+    flex-direction: column;
+    display: flex;
+    height: 87px;
+    background: rgba( 255, 255, 255, 0.08 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 15px;
+
+}
+
+.img-contact-1, .img-contact-2, .img-contact-3, .img-contact-4, .img-contact-5, .img-contact-6 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+
+}
+
+.people-image {
+    margin-top: 15px;
+    display: flex;
+justify-content: space-around;}
+
+
+
+.activities {
+    display: flex;
+flex-direction: column;}
+
+.nav-activities {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    filter: invert(1);
+    align-items: center}
+
+.title-activities {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fleche-activities, .fleche-contact {width: 20px; height: 20px; transform: rotate(180deg)}
+
+.fleche-contact {filter: invert(1)}
+.container-activities {
+    display: grid;
+    grid-template-columns: 55px calc(100vw - 50px - 40px - 55px - 85px) 85px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.container-logo {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    }
+
+.logo {height: 20px}
+
+.center-activities, .right-activities{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white}
+
+.center-activities {
+    align-items: flex-start;
+margin-left: 20px}
+
+.right-activities {align-items: flex-end; justify-self: end;}
+
+.title {
+    color: white
+}
+
+.title-contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-activities, .price-activities {font-weight: 600;}
+
+.time-activities {font-size: 12px; color: #A7A7A7}
+
+.cents-activities {font-size: 12px}
+
+.check {width: 12px; height: 12px; margin: 5px}
+
+.status-activities {color: #a6ff00; font-size: 12px}
+
+.status {display: flex; align-items: center;}
+
+.device-container {
+    display: flex;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+span.price {font-size: 18px}
+

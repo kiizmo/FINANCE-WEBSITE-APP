@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Finance </title>
+        <link rel="stylesheet" href="finance.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container-icon">
+                <img class="nav-icon" src="menu.png" alt="menu">
+            </div>
+            <div class="nav-container-info">
+                <span class="nav-name"> Hi, Moise!</span> <br>
+                <span class="nav-title"> Main Wallet </span>
+            </div>
+            <div class="nav-container-icon">
+                <img class="nav-icon" src="notifications.png" alt=" notification">
+            </div>
+        </nav>
+        <div class="device-container">
+            <div id="first" class="device " > $USD </div>
+            <div id="second" class="device active"> €EUR </div>
+        </div>
+        <div class="solde-container">
+            <div class="solde">
+                <span class="unit">€</span>
+                <span class="money"></span>
+                <span class="cents"></span>
+            </div>
+        </div>
+
+        <div class="evolution">
+            <div class="evolution-value">  </div>
+        </div>
+
+        <div class="action">
+            <a class="send" href="/SEND/send.html">
+                <div class="text-action"> Send </div>
+                <div class="img-action-container">
+                    <img class="download" src="upload.png">
+                </div>
+            </a>
+
+            <div class="request">
+                <div class="img-request-container">
+                    <img class="img-request" src="download.png">
+                </div>
+                <div class="text-request"> Request </div>
+            </div>
+        </div>
+        <div class="scan">
+                <img class="scan-image" src="qr_code.png">
+            </div>
+
+            <div class="contact">
+                <div class="title-contact-container">
+                    <div class="title"> Contacts </div>
+                    <img class="fleche-contact" src="fleche.png">
+                </div>
+                <div class="people-image">
+                    <img class="img-contact-1" src="asian-man.jpg">
+                    <img class="img-contact-2" src="black-woman.jpg">
+                    <img class="img-contact-3" src="white-woman.jpg">
+                    <img class="img-contact-4" src="college-man.jpg">
+                    <img class="img-contact-5" src="hijab-woman.jpg">
+                </div>
+            </div>
+
+            <div class="activities">
+                <div class="nav-activities">
+                    <div class="title-activities"> Recent Activities </div>
+                    <img class="fleche-activities" src="fleche.png">
+                </div>
+
+                <div class="container-box">  
+                </div>
+            </div>
+            <script src="finance.js"></script>
+    </body>
+</html>
